@@ -12,7 +12,7 @@ import packageRoute from './routes/packages.js'
 
 dotenv.config()
 const app = express()
-const port = process.env.PORT || 8000
+const port = process.env.PORT || 5000
 
 // Updated CORS options to allow Authorization header
 const corsOptions = {
